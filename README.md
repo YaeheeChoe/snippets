@@ -1,2 +1,2 @@
 # snippets
-vscode user snippet 저장소
+My VScode user snippets
