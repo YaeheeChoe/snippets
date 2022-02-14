@@ -1,0 +1,40 @@
+{
+  "Styled React Functional Component": {
+    "prefix": "srfce",
+    "body": [
+      "import React from 'react'",
+      "import styled from 'styled-components'",
+      "",
+      "// TODO 이 페이지를 구현하세요.",
+      "",
+      "const Placeholder = styled.div`",
+      "  display: flex;",
+      "  align-items: center;",
+      "  justify-content: center;",
+      "  position: fixed;",
+      "  margin: 0px;",
+      "  padding: 0px;",
+      "  border: 0px;",
+      "  width: 100vw;",
+      "  height: 100vh;",
+      "`",
+      "",
+      "const Styled${TM_FILENAME_BASE} = styled.span`",
+      "  color: gray;",
+      "  font-size: 48px;",
+      "  font-family: serif;",
+      "`",
+      "",
+      "const ${TM_FILENAME_BASE} = () => {",
+      "  return (",
+      "    <Placeholder>",
+      "      <Styled${TM_FILENAME_BASE}/>",
+      "    </Placeholder>",
+      "  )",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE}"
+    ],
+    "description": "Styled React Functional Component"
+  }
+}
